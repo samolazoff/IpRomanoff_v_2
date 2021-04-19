@@ -8,6 +8,7 @@ a:active,
 a:focus,
 a:hover{
     text-decoration: none;
+    color: #000000;
 }
 h1,
 h2,
@@ -30,39 +31,37 @@ ul{
     display: flex;
     flex-direction: row;
 }
-body{
-    background-color: blue;
-}
 .wrap_page{
     max-width: 1400px;
-    /* height: 100Vh; */
     margin: 0 auto;
-    /* background-color: aqua; */
 }
 .logo{
     padding: 0 10px;
+    font-size: 42px;
+    font-family: 'Vast Shadow', cursive;
+}
+.title{
+    margin-bottom: 50px;
+    padding: 0 10px;
+    font-size: 42px;
+    font-family: 'Vast Shadow', cursive;
 }
 /* title and header */
 .title-page{
     justify-content: flex-start;
     align-items: center;
     width: 100%;
-    height: 50vh;
-    background-color:red;
+    height: 100vh;
+    /* background-image: url(../img/bg-tittle.png); */
 }
 .header-page{
     justify-content: flex-start;
     align-items: center;
     width: 80%;
-    height: 10vh;
     padding: 0 20px;
-    background-color: chartreuse;
 }
 .menu__img{
     display: none;
-}
-.nav-page{
-    background-color: beige;
 }
 .nav-page ul{
     display: flex;
@@ -71,26 +70,55 @@ body{
     align-items: center;
 }
 .nav-item{
-    padding-left: 20px;
+    margin-left: 30px;
 }
 .menu__img{
     width: 50px;
     padding: 0 10px;
     margin: 0;
 }
+.link__item{
+    padding: 5px;
+    border-style: none;
+    border-radius: 5px;
+    font-size: 24px;
+}
+.link__item:hover{
+    background-color: darkgrey;
+}
+/* slogan */
+.slogan-box{
+    justify-content: center;
+    align-items: flex-start;
+    width: 80%;
+    margin-top: 100px;
+}
+.slogan{
+    padding: 0 10px;
+    font-size: 48px;
+}
+.sub-slogan{
+    margin-top: 20px;
+    padding: 0 10px;
+    font-size: 36px;
+}
+
 /* about */
 .about{
-    justify-content: center;
+    width: 80%;
+    justify-content: space-between;
     align-items: center;
+    margin-top: 100px;
 }
 .about__img{
-    width: 50%;
-    height: 100%;
+    width: 250px;
     margin: 0 50px;
-    background-color: antiquewhite;
 }
 .about-cont{
-    margin: 0 50px;
+    width: 500px;
+}
+.about__txt{
+    font-size: 24px;
 }
 
 /* services */

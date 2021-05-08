@@ -5,94 +5,90 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Romanoff</title>
-    <link rel="stylesheet" href="style/style.css">
+    <!-- <link rel="stylesheet" href="style/style.css"> -->
+    <link rel="stylesheet" href="style/grid.css">
+    <link rel="stylesheet" href="style/media.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Vast+Shadow&display=swap" rel="stylesheet">
 </head>
 <body>
-    <main class="wrap_page">
-        <!-- title page and header -->
-        <section class="title-page flex-col">
-            <header class="header-page flex-row">
-                <h1 class="logo">
-                    <span>Отделака и ремонт</span>
-                </h1>
-                <nav class="nav-page">
-                    <img src="img/kisspng-computer-icons-hamburger-button-menu-new-menu-5b34724c3cb0f7.1188475115301637882486.png" alt="button-menu" class="menu__img">
-                    <ul>
-                        <li class="nav-item"><a href="" class="link__item">О нас</a></li>
-                        <li class="nav-item"><a href="" class="link__item">Услуги</a></li>
-                        <li class="nav-item"><a href="" class="link__item">Наши работы</a></li>
-                        <li class="nav-item"><a href="" class="link__item">Цены</a></li>
-                        <li class="nav-item"><a href="" class="link__item">Контакты</a></li>
-                    </ul>
-                </nav>
-            </header>
-            <!-- slogan -->
-            <section class="slogan-box flex-col">
-                <h2 class="slogan">
-                    <span>Lorem ipsum dolor sit.</span>
-                </h2>
-                <h3 class="sub-slogan">
-                    <span>Lorem ipsum dolor sit amet consectetur.</span>
-                </h3>
-            </section>
-            <!-- about -->
-            <section class="about flex-row">
-                <img src="img/pngegg (1).png" alt="about-img" class="about__img">
-                <div class="about-cont">
-                    <h2 class="title">
-                        <span>О нас</span>
-                    </h2>
-                    <p class="about__txt">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate beatae quia quod.</p>
-                    <p class="about__txt">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore sapiente incidunt ea.</p>
-                </div>
-            </section>
-        </section>
-        <!-- services -->
-        <section class="services flex-col">
+    <header class="header-page flex-row">
+        <h1 class="logo">
+            <span>Отделака и ремонт</span>
+        </h1>
+        <nav class="nav-page">
+            <img src="img/kisspng-computer-icons-hamburger-button-menu-new-menu-5b34724c3cb0f7.1188475115301637882486.png" alt="button-menu" class="menu__img">
+                <ul class="list-nav">
+                    <li class="nav-item"><a href="" class="link__item">О нас</a></li>
+                    <li class="nav-item"><a href="" class="link__item">Услуги</a></li>
+                    <li class="nav-item"><a href="" class="link__item">Наши работы</a></li>
+                    <li class="nav-item"><a href="" class="link__item">Цены</a></li>
+                    <li class="nav-item"><a href="" class="link__item">Контакты</a></li>
+                </ul>
+
+        </nav>
+    </header>
+    <section class="slogan-box">
+        <h2 class="slogan">
+            <span>Lorem ipsum dolor sit.</span>
+        </h2>
+        <h3 class="sub-slogan">
+            <span>Lorem ipsum dolor sit amet consectetur.</span>
+        </h3>
+    </section>
+    <section class="about flex-row">
+        <img src="img/pngegg (1).png" alt="about-img" class="about__img">
+        <div class="about-cont">
             <h2 class="title">
-                <span>Услуги</span>
+                <span>О нас</span>
             </h2>
-            <div class="services-cont flex-row">
-                <div class="services-box flex-col">
-                    <img src="img/1.png" alt="services__im" class="services__img">
-                    <span class="services__txt">Отделочные работы</span>
-                </div>
-                <div class="services-box flex-col">
-                    <img src="img/2.png" alt="services__im" class="services__img">
-                    <span class="services__txt">Сантехнические работы</span>
-                </div>
-                <div class="services-box flex-col">
-                    <img src="img/1.png" alt="services__im" class="services__img">
-                    <span class="services__txt">Плиточные работы</span>
-                </div>
-                <div class="services-box flex-col">
-                    <img src="img/1.png" alt="services__im" class="services__img">
-                    <span class="services__txt">И др.</span>
-                </div>
+            <p class="about__txt">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate beatae quia quod.</p>
+            <p class="about__txt">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore sapiente incidunt ea.</p>
+        </div>
+    </section>
+    <section class="services">
+        <h2 class="title">
+            <span>Услуги</span>
+        </h2>
+        <div class="services-cont flex-row">
+            <div class="services-box flex-col">
+                <img src="img/1.png" alt="services__im" class="services__img">
+                <span class="services__txt">Отделочные работы</span>
             </div>
-        </section>
-        <!-- our works -->
-        <section class="our-works flex-col">
-            <h2 class="title">
-                <span>Наши работы</span>
-            </h2>
-            <div class="our-works-slider-wrap flex-row">
-                <img src="img/chev-left.png" alt="img__arrow" class="img__arrow" id="btn-left">
-                <div class="our-works-slider flex-row">
-                    <img src="img/img1.jpg" alt="" class="our-works__img img__activ">
-                    <img src="img/img2.jpg" alt="" class="our-works__img ">
-                    <img src="img/img3.jpg" alt="" class="our-works__img">
-                    <img src="img/img4.jpg" alt="" class="our-works__img">
-                    <img src="img/img5.jpg" alt="" class="our-works__img">
-                    <img src="img/img6.jpg" alt="" class="our-works__img">
-                </div>
-                <img src="img/chev-right.png" alt="img__arrow" class="img__arrow" id="btn-right">
+            <div class="services-box flex-col">
+                <img src="img/2.png" alt="services__im" class="services__img">
+                <span class="services__txt">Сантехнические работы</span>
             </div>
-        </section>
-        <!-- prices  -->
-        <section class="prices flex-col">
+            <div class="services-box flex-col">
+                <img src="img/1.png" alt="services__im" class="services__img">
+                <span class="services__txt">Плиточные работы</span>
+            </div>
+            <div class="services-box flex-col">
+                <img src="img/1.png" alt="services__im" class="services__img">
+                <span class="services__txt">И др.</span>
+            </div>
+        </div>
+    </section>
+    <section class="our-works">
+        <h2 class="title">
+            <span>Наши работы</span>
+        </h2>
+        <div class="our-works-slider-wrap flex-row">
+            <img src="img/chev-left.png" alt="img__arrow" class="img__arrow" id="btn-left">
+            <div class="our-works-slider flex-row">
+                <img src="img/Magnifier-zoom-in_icon-icons.com_52023.svg" alt="big" id="btn-zoom" class="img-serv img__activ">
+                <img src="img/Delete-80_icon-icons.com_57340.svg" alt="big" id="btn-close" class="img-serv">
+                <img src="img/img1.jpg" alt="" class="our-works__img img__activ">
+                <img src="img/img2.jpg" alt="" class="our-works__img ">
+                <img src="img/img4.jpg" alt="" class="our-works__img">
+                <img src="img/img5.jpg" alt="" class="our-works__img">
+                <img src="img/img6.jpg" alt="" class="our-works__img">
+            </div>
+            <img src="img/chev-right.png" alt="img__arrow" class="img__arrow" id="btn-right">
+        </div>
+    </section>
+    <!-- prices  -->
+    <!-- <section class="prices flex-col">
             <h2 class="title">
                 <span>Цены</span>
             </h2>
@@ -121,9 +117,9 @@
                     <th>100 за 10</th>
                 </tr>
             </table>
-        </section>
-        <!-- contacts -->
-        <section class="contacts flex-row">
+        </section> -->
+    <!-- contacts -->
+    <!-- <section class="contacts flex-row">
             <div class="cont-links flex-col">
                 <h2 class="title">
                     <span>Контакты</span>
@@ -151,12 +147,11 @@
             </div>
             <img src="img/contImg.png"   alt="" class="cont__img">
 
-        </section>
-        <!-- footer -->
-        <footer class="page-footer flex-row">
+        </section> -->
+    <!-- footer -->
+    <!-- <footer class="page-footer flex-row">
             <span class="footer__txt">Copyright@2021 - Samolazoff</span>
-        </footer>
-    </main>
+        </footer> -->
     <script src="js/slider.js"></script>
 </body>
 </html>

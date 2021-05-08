@@ -39,6 +39,7 @@ ul{
     padding: 0 10px;
     font-size: 42px;
     font-family: 'Vast Shadow', cursive;
+    font-weight: 800;
 }
 .title{
     margin-bottom: 50px;
@@ -135,7 +136,7 @@ ul{
 }
 .services-box{
     width: 200px;
-    height: 50vh;
+    height: 30vh;
     margin: 5px;
     justify-content: center;
     align-items: center;
@@ -152,11 +153,12 @@ ul{
 
 /* our works */
 .our-works{
+    height: 100vh;
     justify-content: flex-start;
     align-items: center;
 }
 .our-works-slider-wrap{
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     width: 80%;
 }
@@ -166,7 +168,7 @@ ul{
 }
 .our-works__img{
     display: none;
-    height: 70vh;
+    width: 100%;
 }
 .img__activ{
     display: block;
